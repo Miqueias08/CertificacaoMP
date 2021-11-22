@@ -12,4 +12,7 @@ class SiteController extends Controller
     public function detalhes(){
         return view("mp-ecommerce.detail");
     }
+    public function webhook(){
+        return http_response_code(200);
+    }
 }
